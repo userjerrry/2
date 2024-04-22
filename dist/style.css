@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"], select, button {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
